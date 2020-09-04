@@ -1,0 +1,7 @@
+name = "GithubActionTest"
+uuid = "82ce4a91-2c19-4b4c-a057-f3d8b3933f31"
+authors = ["YongheeKim <masterplanf@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
