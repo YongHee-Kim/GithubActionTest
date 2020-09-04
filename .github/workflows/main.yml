@@ -19,5 +19,5 @@ jobs:
         with:
           version: ${{ matrix.julia-version }}
           arch: ${{ matrix.julia-arch }}
-      - uses: YongHee-Kim/julia-coveragereport
+      - uses: YongHee-Kim/julia-coveragereport@v0
       
