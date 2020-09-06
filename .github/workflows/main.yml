@@ -19,5 +19,7 @@ jobs:
         with:
           version: ${{ matrix.julia-version }}
           arch: ${{ matrix.julia-arch }}
-      - uses: YongHee-Kim/julia-coveragereport@v0.0.3
+      - uses: YongHee-Kim/julia-coveragereport@v0.0.4
+    env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
       
